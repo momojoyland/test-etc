@@ -22,9 +22,18 @@
     <div class="nav-wrapper">
       <a href="#" class="brand-logo"></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
+
+ <li><a href="/users/sign_in">로그인</a></li>
+        <li><a href="/users/sign_up">가입</a></li> 
+
+
+        <li><%= link_to "로그인", new_user_session_path %></li>
+
+        <%
+=begin%>
+ <li><a href="collapsible.html">JavaScript</a></li> 
+<%
+=end%>
       </ul>
     </div>
   </nav>
